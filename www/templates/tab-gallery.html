@@ -1,0 +1,15 @@
+<ion-view view-title="Gallery Image upload example">
+<ion-content>
+    <div class="my-simple-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+        <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" ng-repeat="item in items">
+            <a ng-click="showGallery($index);" itemprop="contentUrl" data-size="600x400">
+                <img ng-src="{{item.msrc}}" itemprop="thumbnail" alt="Image description" />
+            </a>
+            <figcaption itemprop="caption description">Image caption</figcaption>
+        </figure>
+
+
+    </div>
+
+</ion-content>
+</ion-view>
