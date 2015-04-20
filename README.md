@@ -1,2 +1,2 @@
 # IonicPhotoUploadExample
-Example project to upload a photo from the camera or the galley
+Example project to upload a photo (gallery or camera)
